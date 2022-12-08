@@ -12,7 +12,7 @@ const Profile = () => {
                 </h1>
                 <div className={styles.subTitle}>
                     <div className={styles.mainText}>I'm</div>{" "}
-                    {/* <Typewriter
+                    <Typewriter
                         options={{
                             strings: [
                                 "Fullstack Developer.",
@@ -30,7 +30,7 @@ const Profile = () => {
                         onInit={(typewriter) => {
                             typewriter.pauseFor(1000).deleteAll().start();
                         }}
-                    /> */}
+                    />
                 </div>
                 <button className={styles.profileBtn} role="button">
                     Donwnload CV

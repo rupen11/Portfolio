@@ -1,0 +1,77 @@
+.wrapper {
+    background-color: #ffffff;
+    padding-block: 50px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.title span {
+    font-size: 30px;
+    font-weight: 600;
+    background: rgb(236, 197, 242);
+    background: radial-gradient(
+        circle,
+        rgba(236, 197, 242, 1) 0%,
+        rgba(163, 127, 210, 1) 50%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.underline {
+    height: 3px;
+    width: 5rem;
+    margin: auto;
+    background: rgb(163, 127, 210);
+    background: linear-gradient(
+        90deg,
+        rgba(163, 127, 210, 1) 34%,
+        rgba(236, 197, 242, 1) 97%
+    );
+}
+
+.progressContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.progressContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.progressCircle {
+    width: 150px;
+    height: 150px;
+}
+
+.progressName {
+    color: black;
+    font-size: 17px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .progressContainer {
+        width: 150px;
+    }
+    .progressCircle {
+        width: 100px;
+        height: 100px;
+    }
+    .progressName {
+        font-size: 14px;
+    }
+    .progressContent {
+        gap: 20px;
+    }
+}

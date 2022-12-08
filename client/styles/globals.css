@@ -20,6 +20,7 @@ ul {
 
 * {
     box-sizing: border-box;
+    color: black;
 }
 
 :root {

@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import { About, Navbar, Profile } from "../components";
+import { About, Navbar, Profile, Technology, Techstack } from "../components";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -9,13 +9,15 @@ export default function Home() {
             <Navbar />
             <Profile />
             <About />
+            <Technology />
+            <Techstack />
         </div>
     );
 }
 /*
 Profile
-About - Education, Interest, Hobbie, language, currently
-Technology
+About - Education, language
+Technology - master in
 projects
 contact - linkdin, discord, github, phonenumber, email, form
 */
